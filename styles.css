@@ -1,0 +1,99 @@
+body{
+    background-color: lemonchiffon;
+  }
+  
+  thead,th {
+    border: 2px solid;
+    background-color: dodgerblue !important;
+    font-weight: bold;
+    
+  }
+  
+  tbody{
+    background-color: floralwhite;
+  }
+  
+  h1 {
+    font-family: ariel, san-serif;
+    color: blue;
+    text-align: center;
+    margin: 80px;
+    padding-top:25px;
+    padding: auto;
+    width: 650px, auto;
+    font-size: 50px;
+  }
+  
+  h2{ 
+    color: blue;
+    text-align: center;
+    margin: 25px, 25px;
+    font-size:30px;
+   
+  }
+  
+  table{
+      border-collapse: separate;
+      text-indent: initial;
+      white-space: normal;
+      line-height: normal;
+      font-weight: normal;
+      font-size: medium;
+      font-style: normal;
+      text-align: start;
+      border-spacing: 2px;
+      font-variant: normal;
+      margin: 45px, 45px;
+      padding:45px, 45px;
+  }
+  
+  
+  td { 
+    border: 2px solid;
+    margin: 0 auto;
+    text-align:center;
+    font-family: monospace;
+  
+    
+  }
+  
+  .navbar{  
+  position: absolute;
+  background-color: gold;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  }
+  
+  .navbar li{
+      display: inline-block;
+      padding: 5px 5px;
+      margin: auto;
+      text-align: start;
+      list-style: none;
+      
+  }
+  
+  .navbar a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      justify-content: space-between;
+  }
+  
+  #gif{
+    display: center;
+    padding: 10px, 10px;
+    margin: 20px, 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .description {
+    text-align: start;
+    padding: auto;
+    margin: 25px, 25px;
+  }
